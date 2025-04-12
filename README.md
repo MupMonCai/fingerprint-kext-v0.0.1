@@ -30,8 +30,6 @@ Copy FingerprintSensor.kext into /Library/Extensions/
 Run the following commands in Terminal:
 
 bash
-Sao chép
-Chỉnh sửa
 sudo chown -R root:wheel /Library/Extensions/FingerprintSensor.kext
 sudo kextload /Library/Extensions/FingerprintSensor.kext
 sudo kextcache -i /
